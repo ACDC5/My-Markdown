@@ -42,18 +42,18 @@
 
 
 #*图片*
-语法![图片显示失败时的替换文本](url "鼠标停在图片时显示的文字")
 
 ![我是图片显示失败时的替换文本。想看到图片需要梯子](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Kyrenia_01-2017_img04_view_from_castle_bastion.jpg/800px-Kyrenia_01-2017_img04_view_from_castle_bastion.jpg "我是图片1鼠标悬停时的标题")
 
-![我是图片显示失败时的替换文本。需要梯子才能看到图片，此原图10M左右](https://upload.wikimedia.org/wikipedia/commons/7/77/Ogoy_island_in_winter.jpg "我是图片2鼠标悬停时的标题")
+![我是图片显示失败时的替换文本。需要梯子才能看到图片](https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Ogoy_island_in_winter.jpg/1024px-Ogoy_island_in_winter.jpg "我是图片2鼠标悬停时的标题")
 
-![我是图片显示失败时的替换文本。需要梯子才能看到图片，此原图5M左右](https://upload.wikimedia.org/wikipedia/commons/a/aa/Sarracenia_leucophylla_at_the_Brooklyn_Botanic_Garden_%2881396%29b.jpg "我是图片3鼠标悬停时的标题")
+![我是图片显示失败时的替换文本。需要梯子才能看到图片](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Sarracenia_leucophylla_at_the_Brooklyn_Botanic_Garden_%2881396%29b.jpg/819px-Sarracenia_leucophylla_at_the_Brooklyn_Botanic_Garden_%2881396%29b.jpg "我是图片3鼠标悬停时的标题")
 
 
 ---
 
 #超链接
+
 [手游皇家守卫军](标题XXXX "http://www.kingdomrush.com/")
 
 [算法可视化](https://kinlog.github.io/visualgo/index.html)
@@ -116,12 +116,15 @@
 			print(i)
 ```
 
+---
 
-
-
-
-
-
-
-
-
+#流程图
+```flow
+st=>start:开始
+op=>operation:My Operation
+cond=>condition:Yes or No?
+e=>end
+st->op->cond
+cond(yes)->e
+cond(on)->op
+&```
